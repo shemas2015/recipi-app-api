@@ -1,0 +1,34 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore database files
+db.sqlite3
+
+# Ignore IDE-specific files and directories
+.vscode/
+.idea/
+*.pyc
+
+# Ignore local settings (e.g., local_settings.py)
+local_settings.py
+
+# Ignore user-uploaded media files (if you use Django's MEDIA_URL)
+media/
+
+# Ignore log files
+*.log
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__
+
+# Ignore system and temporary files
+*.swp
+.DS_Store
+Thumbs.db
